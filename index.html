@@ -15,7 +15,7 @@
     }
     video {
       margin-top: 20px;
-      width: 50%;   /* yarı yarıya küçültüldü */
+      width: 60%;   /* %20 büyütülmüş hali */
       height: auto;
       border: 2px solid #fff;
       border-radius: 10px;
@@ -23,19 +23,19 @@
     }
     .spotify-wrapper {
       margin-top: 20px;
-      width: 80%;
-      max-width: 500px;
+      width: 128%;   /* %80 → %128 (1.6x) */
+      max-width: 800px; /* 500px → 800px */
       z-index: 1;
     }
     iframe {
       width: 100% !important;
-      height: 152px !important;
+      height: 243px !important; /* 152px → 243px (1.6x) */
       border: none;
     }
   </style>
 </head>
 <body>
-  <!-- Küçültülmüş video -->
+  <!-- Büyütülmüş video -->
   <video id="bg-video" muted>
     <source src="video3.mp4" type="video/mp4">
     Tarayıcınız video etiketini desteklemiyor.
